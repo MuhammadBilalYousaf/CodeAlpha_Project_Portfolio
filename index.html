@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Bilal Yousaf</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./images/pic.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <div class="container">
+                <h1 class="logo">Bilal Yousaf</h1>
+                <button class="nav-toggle" aria-label="toggle navigation">
+                    <span class="hamburger"></span>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="#main-section">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="./assests/CV.pdf" target="_blank">Resume</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+
+    <!-- Main Section -->
+    <section id="main-section">
+        <div class="intro">
+            <p>Hello!</p>
+            <h1>I'm<span class="typing-text"></span></h1>
+            <div class="buttons">
+                <a href="#" class="btn"  id="hire-me-btn">Hire Me</a>
+                <a href="#projects" class="btn btn-secondary">My Works</a>
+            </div>
+        </div>
+        <div class="profile-img">
+            <img src="./images/pic.png" alt="Bilal Yousaf">
+        </div>
+    </section>
+
+<!-- Modal Structure -->
+<div id="hireMeModal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <h2>Hire Me</h2>
+        <p>I am a Full-Stack Developer specializing in web and mobile applications. Let's work together to build your next big project!</p>
+        <form id="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <select name="service">
+                <option value="" disabled selected>Select a Service</option>
+                <option value="web-development">Web Development</option>
+                <option value="mobile-development">Mobile App Development</option>
+                <option value="ui-ux-design">UI/UX Design</option>
+                <option value="digital-marketing">Digital Marketing</option>
+            </select>
+            <textarea name="message" placeholder="Tell me about your project..." required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </div>
+</div>
+
+    
+
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="about_left">
+            <img src="./images/pic.png" alt="Bilal Yousaf">
+        </div>
+        <div class="about_right">
+            <h2>About Me</h2>
+            <p>A passionate fullstack developer who builds digital solutions. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+            <div class="info">
+                <p> <strong> Name: </strong> &nbsp;&nbsp; Bilal Yousaf</p>
+                <p> <strong> Date of Birth: </strong> &nbsp;&nbsp; March 02, 2000</p>
+                <p> <strong> Address: </strong> &nbsp;&nbsp; Lahore, Pakistan</p>
+                <p> <strong> Email: </strong>&nbsp;&nbsp; bilalyousaf629422@gmail.com</p>
+                <p> <strong> Phone: </strong> &nbsp;&nbsp; +92-311-5318776</p>
+                <p> <span> 3 </span> Projects Completed</p>
+            </div>
+            <a href="./assests/CV.pdf" class="btn" download>Download CV</a>
+
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>My Skills</h2>
+            <div class="skill-bars">
+                <div class="skill">
+                    <p>HTML</p>
+                    <div class="progress">
+                        <div class="progress-bar html"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>CSS</p>
+                    <div class="progress">
+                        <div class="progress-bar css"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>JavaScript</p>
+                    <div class="progress">
+                        <div class="progress-bar js"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>WordPress</p>
+                    <div class="progress">
+                        <div class="progress-bar wp"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>SEO</p>
+                    <div class="progress">
+                        <div class="progress-bar seo"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>Graphics Designing</p>
+                    <div class="progress">
+                        <div class="progress-bar gd"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+<section id="services">
+    <h2>My Services</h2>
+    <div class="service-list">
+        <div class="service-item">
+            <h3>Web Development</h3>
+            <p>Building responsive and user-friendly websites tailored to meet your business needs using modern technologies like HTML, CSS, JavaScript, and frameworks such as React or Vue.js.</p>
+        </div>
+        <div class="service-item">
+            <h3>Full-Stack Development</h3>
+            <p>Creating complete web applications from front-end to back-end, utilizing technologies like Node.js, Express, and MongoDB to ensure seamless performance.</p>
+        </div>
+        <div class="service-item">
+            <h3>UI/UX Design</h3>
+            <p>Designing intuitive user interfaces and enhancing user experiences through user research, wireframing, and prototyping using tools like Figma and Adobe XD.</p>
+        </div>
+        <div class="service-item">
+            <h3>Graphic Design</h3>
+            <p>Providing visually appealing graphic design services, including logo design, branding, and marketing materials that resonate with your target audience.</p>
+        </div>
+        <div class="service-item">
+            <h3>SEO Optimization</h3>
+            <p>Improving your website's visibility on search engines through effective SEO strategies, keyword research, and on-page optimization.</p>
+        </div>
+        <div class="service-item">
+            <h3>Consultation</h3>
+            <p>Offering professional advice and insights on your web projects, ensuring that you have a clear strategy and execution plan to achieve your goals.</p>
+        </div>
+    </div>
+</section>
+
+<!-- My Works/Projects Section -->
+<section id="projects">
+    <div class="container">
+        <h2>My Works</h2>
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <img src="./images/trendify.jpeg" alt="Project 1 Screenshot">
+                <h3>Trendify - News App</h3>
+                <p>A cross-platform news app built using Flutter and Dart to display worldwide news.</p>
+                <a href="https://github.com/MuhammadBilalYousaf/trendify_without_ads" target="_blank" class="btn">View Project</a>
+            </div>
+            <!-- Project 2 -->
+            <div class="project-card">
+                <img src="./images/portfolio.JPG" alt="Project 2 Screenshot">
+                <h3>Portfolio Website</h3>
+                <p>A personal portfolio website built using HTML, CSS, and JavaScript, showcasing my skills and projects.</p>
+                <a href="https://github.com/MuhammadBilalYousaf/Portfolio" target="_blank" class="btn">View Project</a>
+            </div>
+            <!-- Project 3 -->
+            <div class="project-card">
+                <img src="./images/high_landing.JPG" alt="Project 3 Screenshot">
+                <h3>High Landing - Website Design</h3>
+                <p>A responsive website design using HTML, CSS, and JS, designed from Figma layout.</p>
+                <a href=https://github.com/MuhammadBilalYousaf/60_days_session/tree/main/Projects/High%20Landing" target="_blank" class="btn">View Project</a>
+            </div>
+            <!-- Project 4 -->
+            <div class="project-card">
+                <img src="./images/imagify.JPG" alt="Project 1 Screenshot">
+                <h3>Imagify - Image Gallery Website</h3>
+                <p>A image gallery webiste which is fully responsive and uniquely desined to show images in style.</p>
+                <a href="https://github.com/MuhammadBilalYousaf/trendify_without_ads" target="_blank" class="btn">View Project</a>
+            </div>
+            <!-- Project 5 -->
+            <div class="project-card">
+                <img src="./images/music_player.JPG" alt="Project 2 Screenshot">
+                <h3>Music Player</h3>
+                <p>A music player using HTML, CSS, and JavaScript, showcasing my skills and projects.</p>
+                <a href="https://github.com/MuhammadBilalYousaf/Portfolio" target="_blank" class="btn">View Project</a>
+            </div>
+            <!-- Project 6 -->
+            <div class="project-card">
+                <img src="./images/calculator.JPG" alt="Project 3 Screenshot">
+                <h3>Calculator</h3>
+                <p>A responsive Calculator design using HTML, CSS, and JS, designed.</p>
+                <a href=https://github.com/MuhammadBilalYousaf/60_days_session/tree/main/Projects/High%20Landing" target="_blank" class="btn">View Project</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <!-- Contact Section -->
+<section id="contact">
+    <div class="contact-container">
+        <h2>Contact Me</h2>
+        <form id="contact-form" action="https://formspree.io/f/myzygqve" method="post">
+            <div class="form-group">
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </div>
+</section>
+
+
+<!-- Footer Section -->
+<footer>
+    <div class="footer-container">
+        <div class="footer-column">
+            <h3>About Me</h3>
+            <p>I am a passionate web and mobile app developer with experience in Flutter, Dart, and web development. I build impactful digital solutions for various platforms.</p>
+        </div>
+
+        <div class="footer-column">
+            <h3>Quick Links</h3>
+            <ul class="footer-links">
+                <li><a href="#main-section">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="./assests/CV.pdf" target="_blank">Resume</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h3>Get In Touch</h3>
+            <p>Email: <a href="mailto:bilalyousaf629422@gail.com">bilalyousaf629422@gmail.com</a></p>
+            <p>Phone: +92 311 5318776</p>
+            <div class="social-icons">
+                <a href="linkedin.com/in/bilaluniboy/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/MuhammadBilalYousaf/" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://twitter.com/bilaluniboy" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Bilal Yousaf. All Rights Reserved.</p>
+    </div>
+</footer>
+
+
+
+    
+    <script src="./script.js"></script>
+    
+
+</body>
+</html>
